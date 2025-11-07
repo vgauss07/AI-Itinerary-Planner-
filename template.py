@@ -22,7 +22,8 @@ list_of_files = [
     '.env',
     'app.py',
     '.gitignore',
-    'k8s-deployment.yaml'
+    'k8s-deployment.yaml',
+    'filebeat.yaml'
 ]
 
 for filepath in list_of_files:
