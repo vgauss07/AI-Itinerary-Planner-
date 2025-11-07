@@ -23,7 +23,10 @@ list_of_files = [
     'app.py',
     '.gitignore',
     'k8s-deployment.yaml',
-    'filebeat.yaml'
+    'filebeat.yaml',
+    'logstash.yaml',
+    'elasticsearch.yaml',
+    'kibana.yaml'
 ]
 
 for filepath in list_of_files:
