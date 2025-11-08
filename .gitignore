@@ -4,3 +4,4 @@ venv
 logs/
 AI_Travel_Agent.egg-info/
 Documentation.md
+__pycache__/
