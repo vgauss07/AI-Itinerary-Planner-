@@ -26,8 +26,7 @@ list_of_files = [
     'filebeat.yaml',
     'logstash.yaml',
     'elasticsearch.yaml',
-    'kibana.yaml',
-    'test.py'
+    'kibana.yaml'
 ]
 
 for filepath in list_of_files:
