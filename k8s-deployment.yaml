@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: streamlit-container
-          image: streamlit-app:latest
+          image: streamlit-app:latest:v2
           imagePullPolicy: IfNotPresent # Pull the image from registry only if its not already cached locally.
           ports:
             - containerPort: 8501
