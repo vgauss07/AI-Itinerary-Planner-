@@ -11,11 +11,12 @@ llm_model = ChatGroq(
 )
 
 itinerary_prompt = ChatPromptTemplate([
-    ("system", "You are a helpful travel assistant. Create a day trip \
+    ("system", "You are a helpful travel assistant. Create a multi day trip \
                 itinerary for {city} based on the \
                 user's interest : {interests}. \
-                Provide a brief, bulleted itinerary"),
-    ("human", "Create a itinerary for my day trip")
+                Provide a brief, bulleted itinerary. \
+                Include prices."),
+    ("human", "Create a itinerary for my trip")
 ])
 
 
